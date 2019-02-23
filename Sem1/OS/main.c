@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <sys/stat.h>
 #include <dirent.h>
-#include <cstring>
 #include <errno.h>
 #include <stdlib.h>
-#include <climits>
+#include <memory.h>
+#include <limits.h>
 
 struct stat buffer;
 int status;
